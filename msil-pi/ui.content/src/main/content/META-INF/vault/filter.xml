@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/msil-pi" mode="merge"/>
+    <filter root="/content/msil-pi" mode="merge"/>
+    <filter root="/content/dam/msil-pi" mode="merge">
+        <exclude pattern="/content/dam/msil-pi(/.*)?"/>
+        <include pattern="/content/dam/msil-pi/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/msil-pi/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/msil-pi" mode="merge"/>
+</workspaceFilter>
